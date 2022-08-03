@@ -32,7 +32,7 @@ export class App{
 
     async listen(){
         await this.app.listen(this.app.get('port')|| 3000);
-        console.log('Server on port',this.app.get('port'));
+        console.log('Server en puerto: ',this.app.get('port'));
 
     }
 }
